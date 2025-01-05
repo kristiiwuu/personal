@@ -23,14 +23,14 @@ export default function Home() {
             <Image
               className="dark:invert"
               src="/github-mark-white.svg"
-              alt="Vercel logomark"
+              alt="GitHub logomark"
               width={20}
               height={20}
             />
             GitHub
           </a>
           <a
-            className="gap-2 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+            className="gap-2 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
             href="https://linkedin.com/in/kristi-wu"
             target="_blank"
             rel="noopener noreferrer"
@@ -38,11 +38,26 @@ export default function Home() {
             <Image
               className="dark:invert"
               src="/linkedin.svg"
-              alt="Vercel logomark"
+              alt="LinkedIn logomark"
               width={30}
               height={30}
             />
             LinkedIn
+          </a>
+          <a
+            className="gap-2 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 "
+            href="mailto:kawu@usc.edu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              className="dark:invert"
+              src="/gmail.svg"
+              alt="Gmail logomark"
+              width={20}
+              height={20}
+            />
+            Email
           </a>
         </div>
       </main>
