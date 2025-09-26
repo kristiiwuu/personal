@@ -10,7 +10,7 @@ export default function Home() {
 
         <div>
           <p>Computer Science + Business Administration</p>
-          <p>3rd year undergraduate at the University of Southern California</p>
+          <p>4th year undergraduate at the University of Southern California</p>
         </div>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
